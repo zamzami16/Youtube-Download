@@ -7,10 +7,10 @@ I use this script to download videos on youtube and convert it to `.mp3` file.
 the output will be an audio file of the videos.
 it use multi threading for 5 thread. if you want change the number of thread, you can modify it in `download-yt.py`
 
-```bash
+```python
 if __name__ == "__main__":
     if os.path.exists("urls.txt"):
-        n_chunk = 5 // Change this for number of thread you want.
+        n_chunk = 5 # Change this for number of thread you want.
 ```
 
 ## Whats Next
