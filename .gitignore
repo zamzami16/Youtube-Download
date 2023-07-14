@@ -1,0 +1,5 @@
+.env/
+.idea/
+.vscode/
+usil.py
+gui.py
